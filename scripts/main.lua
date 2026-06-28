@@ -43,7 +43,7 @@ local Config = {
     HeaderTitle = "VYX",
     Subtitle = "ScriptHub Authentication",
     LinkvertiseLink = "https://ads.luarmor.net/get_key?for=VYXLinkvertise-YysLqXvzHcdm",
-    ShrtflyLink = "https://ads.luarmor.net/get_key?for=VYXShrtFly-soPiLyyqONUM",
+    ShrtflyLink = "https://ads.luarmor.net/get_key?for=VYXWorkInk-soPiLyyqONUM",
     DiscordLink = "https://discord.gg/dgN5u5da6q",
     FileName = "VYXKey_Save.txt",
     AssetFolder = "VYXAssets",
@@ -1098,7 +1098,7 @@ local function CreateMainButton(y, text, iconName, primary, xScale, xOffset, wid
 end
 
 local LinkvertiseButton, LinkvertiseText = CreateMainButton(132, "Linkvertise", "external-link", false, 0, 0, 0.5, -5)
-local ShrtflyButton, ShrtflyText = CreateMainButton(132, "Shrtfly", "external-link", false, 0.5, 5, 0.5, -5)
+local ShrtflyButton, ShrtflyText = CreateMainButton(132, "Work.Ink", "external-link", false, 0.5, 5, 0.5, -5)
 local RedeemButton, RedeemText = CreateMainButton(182, "Verify Key", "book-key", true)
 
 New("Frame", {
